@@ -1,0 +1,52 @@
+body{
+    background: med;
+}
+
+.about-band-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+.main-footer {
+    background-color: #dae4e7;
+    color: white;
+    padding: .25em 0;
+}
+.main-footer p{
+    background-color: #87819c;
+    padding: .25em 0;
+    text-align: center;
+} 
+.main-footer h3{
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+} 
+
+.main-footer-container {
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+
+.footer-nav li {
+    padding: 0.5em;
+    letter-spacing: 70px;
+    align-self: center;
+    
+} 

@@ -1,6 +1,16 @@
 body{
     background: med;
 }
+.bs-example{
+    margin: 20px;
+}
+.nav-item:hover {
+
+background-color: rgb(148, 148, 144);
+color: #000000;
+padding: 10px 20px;
+border-radius: 30px;
+}
 
 .about-band-image {
     float: left;
@@ -37,10 +47,15 @@ body{
 
 .main-footer a{
     padding: 1.5em;
-    text-align: center;
     float:center;
     line-height: 4.6;  
+    margin-left: 16.66%;
 } 
+
+/* width: 100%;
+position: relative;
+float: left;
+margin-left: 16.66%; */
 
 
 .main-footer-container {

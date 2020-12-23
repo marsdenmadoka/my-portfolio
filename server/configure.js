@@ -10,10 +10,9 @@ methodOverride = require('method-override'),
 errorHandler = require('errorhandler');
 moment = require('moment');
 
-module.exports = function(app) { //moving the routes to the routes folder
+module.exports = function(app) { //moving the routes to the routes .js
 
 app.use(morgan('dev'));
-// app.use(multer({ dest: path.join(__dirname,'public/upload/temp')}));   //app.use(bodyParser({ uploadDir:path.join(__dirname, 'public/upload/temp')}));
 app.use(methodOverride());
 app.use(cookieParser('some-secret-value-here'));
 

@@ -14,10 +14,11 @@ border-radius: 30px;
 }
 
 .home-band-image {
+    margin-top:10px ;
     height: 200px;
     width: 200px;
     border-radius: 60%;
-    margin-left: 50%;
+    margin-left: 10%;
 }
 .section-header {
     font-family: "Metal Mania";
@@ -40,6 +41,11 @@ border-radius: 30px;
   .content:hover{
     transform: skew(20deg);
     }
+    .content2 {
+        text-align: center;
+        transform: skew(0deg, 6deg);
+        padding-top: 30px;
+      }
 .main-footer {
     background-color: #dae4e7;
     color: white;
@@ -117,11 +123,36 @@ border-radius: 30px;
         cursor: pointer;
       }
       .img-container-3 {
-        width: auto;
-        height: auto;
+        width: 200;
+        height: 200;
         overflow: hidden;
       }
-      .size-enlarge:hover {
-        transform: scale(1.2);
+
+      .img-container-3 img{
+        float: left;
+        width: 23.33%;
+        padding: 30px;
       }
-  
+
+      .img-container-4 img{
+        float: left;
+        width: 63.33%;
+        padding: 30px;
+      }
+      .size-enlarge2:hover {
+        transform: scale(1.5);
+      }
+
+      /* .size-enlarge:hover {
+        transform: scale(1.2);
+      } */
+      /* .col-12 {
+        width: 100%;
+        position: relative;
+        float: left;
+      }
+      .col-5 {
+        width: 41.66%;
+        position: relative;
+        float: left;
+      } */

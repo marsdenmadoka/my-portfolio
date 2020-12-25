@@ -20,6 +20,14 @@ border-radius: 30px;
     border-radius: 60%;
     margin-left: 10%;
 }
+.content-section{
+    background-color: #87819c;
+    /* border-radius:15px / 50px; */
+    transform: skew(0deg, -6deg);
+    padding: 10%;
+    padding-bottom: 5%;
+   
+}
 .section-header {
     font-family: "Metal Mania";
     font-weight: normal;
@@ -27,25 +35,21 @@ border-radius: 30px;
     text-align: center;
     font-size: 2.5em;
 }
- .content-section{
-     background-color: #87819c;
-     /* border-radius:15px / 50px; */
-     transform: skew(0deg, -6deg);
-     padding: 5%;
- }
+
  .content {
     text-align: center;
     transform: skew(0deg, 6deg);
     padding-top: 30px;
+    color: #000000;
   }
   .content:hover{
     transform: skew(20deg);
     }
-    .content2 {
+    /* .content2 {
         text-align: center;
         transform: skew(0deg, 6deg);
         padding-top: 30px;
-      }
+      } */
 .main-footer {
     background-color: #dae4e7;
     color: white;

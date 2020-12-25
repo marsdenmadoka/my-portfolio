@@ -136,13 +136,13 @@ border-radius: 30px;
 
       .img-container-4 img{
         float: left;
-        width: 63.33%;
+        width: 73.33%;
         padding: 30px;
       }
       .size-enlarge2:hover {
         transform: scale(1.5);
       }
-
+    
       /* .size-enlarge:hover {
         transform: scale(1.2);
       } */

@@ -20,6 +20,10 @@ border-radius: 30px;
     border-radius: 50%;
     margin-left: 10%;
 }
+
+.home-band-image:hover {
+    transform: scale(1.5);
+  }
 .content-section{
     background-color: #87819c;
     /* border-radius:15px / 50px; */

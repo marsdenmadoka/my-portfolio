@@ -156,6 +156,40 @@ border-radius: 30px;
         padding: 5px 0;
 
       }
+      /*for smart phones*/
+      @media screen and (max-width: 320px){
+        .skewed-2{
+          content: "";
+          clear: both;
+          display: table;
+          float:center; 
+          text-align: center;
+          bottom: 200px;
+          padding-bottom: 100px;
+         
+          }
+          .img-container-3{
+            
+            width: 200;
+            height: 200;
+            overflow: hidden;
+            vertical-align: middle;
+            display: table-cell;
+            text-align: center;
+          
+          }    
+          .img-container-3 img{
+            margin: 2%;
+            height: auto;
+            max-width: 100%;
+             text-align: center;
+            border: none;
+            display: block;
+            padding: 5px 0;
+        
+          } 
+    }
+
 
       .img-container-4 img{
         float: left;
@@ -188,17 +222,4 @@ border-radius: 30px;
             
           }
       }
-    
-      /* .size-enlarge:hover {
-        transform: scale(1.2);
-      } */
-      /* .col-12 {
-        width: 100%;
-        position: relative;
-        float: left;
-      }
-      .col-5 {
-        width: 41.66%;
-        position: relative;
-        float: left;
-      } */
+

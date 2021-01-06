@@ -44,15 +44,18 @@ border-radius: 30px;
     font-size: 2.5em;
 }
 
- 
+.content {
+  margin-left: 5%;
+    transform: skew(0deg, 6deg);
+    padding-top: 30px;
+    color: #000000;
+    
+  }
+
   .content:hover{
     transform: skew(20deg);
     }
-    /* .content2 {
-        text-align: center;
-        transform: skew(0deg, 6deg);
-        padding-top: 30px;
-      } */
+  
 .main-footer {
     background-color: #dae4e7;
     color: white;
@@ -156,8 +159,21 @@ border-radius: 30px;
         padding: 5px 0;
 
       }
+
+      .img-container-4 img{
+        float: left;
+        width: 73.33%;
+        padding: 30px;
+      }
+      .size-enlarge2:hover {
+        transform: scale(1.5);
+      }
+
+
+
+
       /*for smart phones*/
-      @media screen and (max-width: 320px){
+      /* @media screen and (max-width: 320px){
         .skewed-2{
           content: "";
           clear: both;
@@ -188,38 +204,12 @@ border-radius: 30px;
             padding: 5px 0;
         
           } 
-    }
+    } */
 
 
-      .img-container-4 img{
-        float: left;
-        width: 73.33%;
-        padding: 30px;
-      }
-      .size-enlarge2:hover {
-        transform: scale(1.5);
-      }
+     
 
-
-      @media screen and (min-width: 601px) {
-        .content {
-          margin-left: 5%;
-            transform: skew(0deg, 6deg);
-            padding-top: 30px;
-            color: #000000;
-           
-            
-          }
-      }
       
       /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-      @media screen and (max-width: 600px) {
-        .content {
-          margin-left: 5%;
-            transform: skew(0deg, 6deg);
-            padding-top: 30px;
-            color: #000000;
-            
-          }
-      }
-
+     
+        

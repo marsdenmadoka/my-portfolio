@@ -45,14 +45,14 @@ border-radius: 30px;
 }
 
 .content {
-    transform: skew(0deg, 6deg);
+    transform: skew(3deg,3deg);
     padding-top: 30px;
     color: #000000;
    
   }
 
   .content:hover{
-    transform: skew(20deg);
+    transform: skew(5deg);
     }
   
 .main-footer {
